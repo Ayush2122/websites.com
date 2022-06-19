@@ -1,0 +1,218 @@
+.songs {
+    border: 3px solid black;
+    width: 210%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bhan.PNG);
+    background-size: cover;
+    margin: 1rem;
+}
+
+.containers {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+.backs {
+    background-image:  url(background.jfif);
+    background-size: cover;
+
+}
+audio {
+    max-width: 100%;
+    max-height: 100%;
+
+    margin: auto;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+
+.songs h4 {
+    margin-left: 25%;
+    color: white;
+    margin-top: 4%;
+}
+
+.backs button {
+    background-color: rgb(160, 177, 12);
+    padding: 1.8%;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    margin-top: 5%;
+}
+
+ul li select {
+    width: 99%;
+    height: 95%;
+}
+
+
+
+.song8 {
+    border: 3px solid black;
+    width: 210%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hback.PNG);
+    background-size: cover;
+    margin: 1rem;
+}
+
+.container8 {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+.back8 {
+    background-image:  url(background.jfif);
+    background-size: cover;
+
+}
+
+audio {
+    max-width: 100%;
+    max-height: 100%;
+
+    margin: auto;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+
+.song8 h4 {
+    margin-left: 25%;
+    color: white;
+    margin-top: 4%;
+}
+
+.back8 button {
+    background-color: rgb(160, 177, 12);
+    padding: 1.8%;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    margin-top: 5%;
+}
+
+
+
+.songe {
+    border: 3px solid black;
+    width: 210%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(heng.PNG);
+    background-size: cover;
+    margin: 1rem;
+}
+
+.containere {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+.backe {
+    background-image:  url(background.jfif);
+    background-size: cover;
+
+}
+
+audio {
+    max-width: 100%;
+    max-height: 100%;
+
+    margin: auto;
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 3%;
+
+}
+
+.songe h4 {
+    margin-left: 25%;
+    color: white;
+    margin-top: 4%;
+}
+
+.backe button {
+    background-color: rgb(160, 177, 12);
+    padding: 1.8%;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    margin-top: 5%;
+}
+
+.footer {
+    background-color: silver;
+}
+
+.footer a {
+    margin: 15px;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .songs {
+        width: 150%;
+    }
+
+    ul li a {
+        font-size: 0.8rem;
+    }
+
+    ul {
+        margin-top: 5%;
+    }
+
+    select {
+        width: 2%;
+    }
+
+    .song8 {
+        width: 150%;
+    }
+
+    .songs h4 {
+        margin-left: 20%;
+        font-size: 0.8rem;
+    }
+
+    .song8 h4 {
+        margin-left: 20%;
+        font-size: 0.8rem;
+    }
+
+    .songe h4 {
+        margin-left: 20%;
+        font-size: 0.8rem;
+    }
+    .songe img{
+        height: auto;
+      
+    }
+    .songs img{
+        height: auto;
+    }
+    .song8 img{
+        height: auto;
+    }
+}

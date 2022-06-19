@@ -1,0 +1,19 @@
+nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    float: right;
+}
+nav ul li{
+    margin: 5%;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+header img{
+    height: 3.5rem;
+}

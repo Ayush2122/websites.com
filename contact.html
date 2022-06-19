@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="1st.css">
+    <link rel="stylesheet" href="tryko.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="logo.png" alt="">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://open.spotify.com/playlist/6IGjH2C1kQxGjFP9mVmCqd" target="_blank">Trending</a></li>
+            <li> <select style="margin-top: 1%;" onchange="location = this.value;">
+                <option value="Categories">Option</option></a>
+                <option value="#"> Guitar</a></option>
+                <option value="#"> Piano</a></option>
+                <option value="#"> flute</option>
+              </select> </a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    
+        
+        </nav>
+        <form action="">
+          <input type="text" placeholder="Search.."><button>Go</button>
+        </form>
+      
+      </header>
+    <h1 style="text-align: center;">Contact</h1> 
+    <section class="contact1">
+       
+    Name: <input type="text" placeholder="Your Name.."><br><br>
+    Email: <input type="text" placeholder="Your Email.."><br><br>
+    Passs: <input type="text" placeholder="Your Password..."><br><br>
+    Phone: <input type="text" placeholder="Your Phone no..."><br><br>
+ <button onclick="contact()">Submit</button>
+    </section>
+    <section class="footer" style="text-align: center; margin-top: 1%; ">
+        <h3>You can also contact me on:</h3>
+        <a href="https://www.facebook.com/ayush.poudel.35325" target="_blank"><img src="face.PNG" alt="" height="40em"
+            style="border-radius: 15em; margin-top: -0.8em;"></a>
+        <a href="https://www.messenger.com/t/100029056218966" target="_blank"><img src="message.PNG" alt="" height="40em"
+            style="border-radius: 15em; margin-top: -0.8em;"></a>
+        <a href="https://web.telegram.org/z/#1998627196" target="_blank"><img src="tel.PNG" alt="" height="40em"
+            style="border-radius: 15em; margin-top: -0.8em;"></a>
+            
+      </section>
+      <script>
+        function contact() {
+          window.alert("Thank You");
+        }
+      </script>
+</body>
+</html>

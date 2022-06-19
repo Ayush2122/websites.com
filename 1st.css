@@ -7,7 +7,7 @@ nav img {
     height: 4em;
     
     margin-top: -0.001%;
-    margin-left: 0.7%;
+    margin-left: 0.3%;
 }
 
 ul {
@@ -22,7 +22,8 @@ ul li {
     padding: 10px;
     list-style: none;
     text-decoration: none;
-    margin-top: -2.5%;
+    margin-top: -1.5%;
+   
 
 }
 ul li select:hover{
@@ -32,7 +33,7 @@ ul li select:hover{
 ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 500;
  
 
@@ -59,7 +60,8 @@ header form input {
  header form button {
     height: 30px;
     background-color: rgb(175, 94, 94);
-    border-radius: 12px;
+    border-radius: 10px;
+    margin-left: 0.5%;
 
 }
 body{
@@ -77,4 +79,13 @@ body{
 .contact button{
    height: 2em;
    width: 10%;
+}
+.contact1{
+    text-align: center;
+    font-size: 140%;
+    
+}
+.contact1 input{
+    width: 30%;
+    height: 2em;
 }
